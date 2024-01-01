@@ -52,97 +52,105 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:  wombat
+//  action 1: the wombat sleeps
+wombat.sleep();
+//  action 2: the wombat runs
+wombat.run();
+//  action 3: the wombat poops
+wombat.poop();
 
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:  chef
+//  action 1:  the chef cooks
+chef.cook();
+//  action 2:  the chef tastes
+chef.taste();
+//  action 3:  the chef cuts
+chef.cut();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:  wind
+//  action 1:  the wind howls
+wind.howl();
+//  action 2:  the wind blows
+wind.blow();
+//  action 3:  the wind stops
+wind.stop();
 
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:  water
+//  action 1:  the water pools
+water.pool();
+//  action 2:  the water frezzes
+water.freeze();
+//  action 3:  the water boils
+water.boil();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:  bird
+//  action 1:  the bird flies
+bird.fly();
+//  action 2:  the bird sings
+bird.sing();
+//  action 3:  the bird makes a nest  
+bird.makeNest();
 
 //  6)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: lush
+//  action 1:  the lush drinks
+lush.drink();
+//  action 2:  the lush talks
+lush.talk();
+//  action 3:  the lush regrets
+lush.regret();
 
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: river
+//  action 1:  the river flows
+river.flow();
+//  action 2: the river floods
+river.flood();
+//  action 3:  the river freezes
+river.freeze();
 
 //  8)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:  miniHuman
+//  action 1:  the mini human eats berries
+miniHuman.eatBerries();
+//  action 2:  the mini human reads a book
+miniHuman.readBook();
+//  action 3:  the mini human spills milk
+miniHuman.spillMilk();
 
 //  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun:  pug
+//  action 1:  the pug snores
+pug.snore();
+//  action 2:  the pug eats
+pug.eat();
+//  action 3:  the pug derps
+pug.derp();
 
 //  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-
+//  Noun:  bells  
+//  action 1:  the bells ring
+bells.ring();
+//  action 2:  the bells chime
+bells.chime();
+//  action 3:  the bells swing
+bells.swing();
 
 #endif
 
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -150,8 +158,7 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
