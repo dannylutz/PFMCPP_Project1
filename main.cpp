@@ -113,13 +113,13 @@ river.flood();
 river.freeze();
 
 //  8)
-//  Noun:  toddler  
-//  action 1:  the toddler laughs
-toddler.laugh();
-//  action 2:  the toddler naps
-toddler.nap();
-//  action 3:  the toddler cries
-toddler.cry();
+//  Noun:  miniHuman
+//  action 1:  the mini human eats berries
+miniHuman.eatBerries();
+//  action 2:  the mini human reads a book
+miniHuman.readBook();
+//  action 3:  the mini human spills milk
+miniHuman.spillMilk();
 
 //  9)
 //  Noun:  pug
@@ -144,11 +144,13 @@ bells.swing();
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
- Commit your changes by clicking on the Source Control panel on the left, entering a message, and click [Commit and push].
- 
- If you didn't already: 
+ Commit your changes by clicking on the Source Control panel on the left,
+ entering a message, and click [Commit and push].
+
+ If you didn't already:
     Make a pull request after you make your first commit
-    pin the pull request link and this repl.it link to our DM thread in a single message.
+    pin the pull request link and this repl.it link to our DM thread in a single
+ message.
 
  send me a DM to review your pull request when the project is ready for review.
 
@@ -156,8 +158,7 @@ bells.swing();
  */
 
 #include <iostream>
-int main()
-{
-    std::cout << "good to go" << std::endl;
-    return 0;
+int main() {
+  std::cout << "good to go" << std::endl;
+  return 0;
 }
